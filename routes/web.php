@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', [OrderController::class, 'home']);
 Route::post('/checkout', [OrderController::class, 'checkout']);
+Route::post('/midtras-callback', [OrderController::class, 'callback']);
